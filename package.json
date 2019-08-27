@@ -1,0 +1,22 @@
+{
+  "name": "youtube-sub-count",
+  "version": "1.0.0",
+  "description": "Youtube live subscriber count",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "youtube",
+    "subscriber",
+    "count"
+  ],
+  "author": "Himel",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
